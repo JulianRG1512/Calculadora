@@ -1,5 +1,5 @@
 .entrada {
-    height: 75px;
+    height: 70px;
     border-radius: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -14,3 +14,4 @@
     margin: 1px solid #888;
     box-shadow: -1px 4px 1px 1px rgb(238, 235, 235);
 }
+
