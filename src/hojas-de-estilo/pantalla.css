@@ -1,5 +1,5 @@
 .entrada {
-    height: 65px;
+    height: 60px;
     border-radius: 50px;
     margin-bottom: 35px;
     margin-top: 10px;
@@ -7,13 +7,23 @@
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgb(238, 235, 235);
     color: black;
     padding: 11px;
     padding-right: 30px;
     margin: 1px solid #888;
     box-shadow: -1px 4px 1px 1px rgb(238, 235, 235);
+}
+
+@media screen and (max-width: 600px) {
+    .entrada{
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        
+    }
+
 }
 
 
