@@ -1,7 +1,7 @@
 .entrada {
     height: 65px;
     border-radius: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
@@ -19,7 +19,7 @@
 @media screen and (max-width: 600px) {
     .entrada{
         height: 60px;
-        margin-bottom: 50px;
+        
         
     }
 
