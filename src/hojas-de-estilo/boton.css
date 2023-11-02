@@ -27,11 +27,11 @@
     background-color: rgb(157, 199, 145);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .boton-contenedor{
         height: 60px;
         font-size: 30px;
-        margin: 2px;
+        margin: 4px;
         
     }
 
