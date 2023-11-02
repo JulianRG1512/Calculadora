@@ -6,10 +6,10 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: rgb(209, 61, 8);
-    color: white;
+    background-color: #E84545;
+    color: #FDEBED;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 1px solid #e0e0e0;
     margin: 4px;
     cursor: pointer;
     user-select: none;
@@ -20,9 +20,19 @@
 }
 
 .operador{
-    background-color: olivedrab;
+    background-color: #03C988;
 }
 
 .operador:hover{
     background-color: rgb(157, 199, 145);
+}
+
+@media screen and (max-width: 900px) {
+    .boton-contenedor{
+        height: 60px;
+        font-size: 30px;
+        margin: 2px;
+        
+    }
+
 }
