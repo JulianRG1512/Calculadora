@@ -6,17 +6,17 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #a1f9d0;
+    background-color: #FB7813;
     color: white;
     border-radius: 25px;
-    border: 1px solid white;
+    border: 2px solid #333;
     margin: 4px;
     cursor: pointer;
     user-select: none;
 }
 
 .boton-resultado:hover{
-    background-color: #03C988;
+    background-color: #FA9B13;
 }
 
 @media screen and (max-width: 600px) {

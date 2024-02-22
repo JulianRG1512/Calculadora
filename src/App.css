@@ -1,22 +1,32 @@
 .App{
     
-    height: 100vh;
-    padding-top: 10px;
-    background-color: #2B2E4A;
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1F2544;
+}
+
+
+
 .contenedor-calculadora{
-    width: 400px;
-    height: 600px;
-    padding: 14px;
-    background-color:#53354A;
+    position: relative;
+    width: 340px;
+    padding: 20px;
     border-radius: 20px;
-    border: 1px solid #31355B;
+    background: #33393e;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25),
+      -15px -15px 20px rgba(255, 255, 255, 0.1);
 }
 
 .fila{
@@ -25,6 +35,26 @@
     align-items: center;
     justify-content: center;
 }
+
+
+
+  .dark .contenedor-calculadora  .boton-contenedor {
+    background: #33393e;
+    color: #eee;
+    border: 2px solid #19191a;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+      inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+  }
+
+  .dark .contenedor-calculadora  .operador {
+    background: #2196f3;
+    color: #eee;
+    border: 2px solid #eee;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+      inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  
 
 @media screen and (max-width: 600px) {
     .contenedor-calculadora{

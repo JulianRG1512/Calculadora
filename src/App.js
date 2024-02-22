@@ -3,13 +3,14 @@ import './App.css';
 import Boton from "./componentes/boton";
 import BotonResultado from './componentes/BotonResultado';
 import Pantalla  from './componentes/pantalla';
+
 import { useState } from 'react';
 import { evaluate} from 'mathjs'; // Paquete que permite realizar operaciones matemáticas
 
 function App() {
 
   const [valor, setInput] = useState ('');
-
+  
   const agregarValor = val => {
     setInput(valor + val);
   };
@@ -21,10 +22,14 @@ function App() {
       alert('Por favor ingrese valores para realizar los cálculos')
     };
   };
+
+  
+  
   
   return (
     <div className="App">
-      
+
+             
       <div className="contenedor-calculadora">
         
         <Pantalla entrada = {valor} />
@@ -63,6 +68,9 @@ function App() {
         </div>
       
       </div>
+
+      
+
     </div>
   );
 }

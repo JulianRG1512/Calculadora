@@ -1,5 +1,6 @@
 import React from "react";
 import "../hojas-de-estilo/boton.css";
+import "../App.css"
 
 // isNaN: funcion que permite determinar si un valor no es un numero.
 function Boton(props){
